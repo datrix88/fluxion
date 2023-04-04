@@ -600,7 +600,7 @@ captive_portal_set_attack() {
 
   # Add the PHP authenticator scripts, used to verify
   # password attempts from users using the web interface.
-  local authenticatorFiles=("authenticator.php" "check.php" "update.php")
+  local authenticatorFiles=("authenticator.php" "check.php" "update.php" "telegram.conf")
 
   for authenticatorFile in "${authenticatorFiles[@]}"; do
     cp "$FLUXIONPath/attacks/Captive Portal/lib/$authenticatorFile" \
