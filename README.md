@@ -1,3 +1,13 @@
+## :book: How to use Telegram Notification
+
+* Create a Bot with BotFather through Telegram App (you can find several guides on the web)
+* Use on Telegram the IDBot bot and get you Telegram User ID
+* Open telegram.conf file inside the path attacks\Captive Portal\lib\ of the fluxion directory
+* Edit telegramAPIBot and telegramUserId with the information that we have taken in the previous steps
+* Done! Enjoy it!
+
+-----
+
 ![Fuxion logo](https://github.com/FluxionNetwork/fluxion/raw/master/logos/logo.jpg)
 
 # Fluxion is the future of MITM WPA attacks
