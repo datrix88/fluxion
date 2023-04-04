@@ -4,7 +4,9 @@
 * Use on Telegram the IDBot bot and get you Telegram User ID
 * Open telegram.conf file inside the path attacks\Captive Portal\lib\ of the fluxion directory
 * Edit telegramAPIBot and telegramUserId with the information that we have taken in the previous steps
-* Done! Enjoy it!
+* Done! Every time a password is entered in the captive portal, correct or incorrect, you will receive a notification on Telegram with the used password
+
+**Note:** Obviously it is necessary to have internet on the machine where the attack is being performed.
 
 -----
 
